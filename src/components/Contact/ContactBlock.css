@@ -1,0 +1,34 @@
+.contactblock {
+    display: flex;
+    min-width: 275px;
+    margin-inline: auto;
+    border: 1px dashed rgb(232, 232, 232);
+    border-radius: 10px;
+}
+
+.contactblock__subblock {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.contactblock__icon {
+    text-align: center;
+    border-right: 2px dotted rgb(232, 232, 232);
+    border-radius: 10px;
+}
+
+.contactblock__icon__img {
+    vertical-align: middle;
+    width: 20px;
+}
+
+.contactblock__content {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contactblock__content > a {
+    color: unset;
+}

@@ -1,0 +1,8 @@
+.portfolio {
+    background-color: #ece4e7;
+    text-align: center;
+}
+
+.portfolio__container {
+    max-width: 800px !important;
+}
