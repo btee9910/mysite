@@ -1,0 +1,13 @@
+.timeline__block {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.timeline__block {
+    margin: 0 auto;
+}
+
+.timeline__left {
+    text-align: end;
+}
