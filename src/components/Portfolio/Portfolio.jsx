@@ -6,17 +6,20 @@ const Portfolio = () => {
         projectName: 'ToDo List',
         projectDescription: 'A simple yet fully functional and user experience considered project with React frontend, Express backend and MongoDB database.',
         thumbnail: './todolist.png',
-        url: 'https://todolist-tee.vercel.app/'
+        url: 'https://todolist-tee.vercel.app/',
+        repo: 'https://github.com/btee9910/todolist'
     }, {
         projectName: 'Tic Tac Toe',
-        projectDescription: 'A classic game built on frontend with JavaScript and JQuery.',
+        projectDescription: 'A classic game built on frontend with HTML, CSS, JavaScript and JQuery.',
         thumbnail: './tictactoe.png',
-        url: 'https://btee9910.github.io/TicTacToe/'
+        url: 'https://btee9910.github.io/TicTacToe/',
+        repo: 'https://github.com/btee9910/TicTacToe'
     }, {
         projectName: 'HAUSSTUFF',
         projectDescription: 'A B2C eCommerce store based in Melbourne, Victoria.',
         thumbnail: './hausstuff.png',
-        url: 'https://hausstuff.com.au/'
+        url: 'https://hausstuff.com.au/',
+        repo: ''
     }];
 
     return (
@@ -25,8 +28,10 @@ const Portfolio = () => {
                 <h2>Featured Portfolio<span className='header__decor'>&#129;</span></h2>
 
                 {projects.map((project, index) => {
-                    return <PortfolioBlock index={Number(index)} projectName={project.projectName} projectDescription={project.projectDescription} thumbnail={project.thumbnail} url={project.url} key={index} />
+                    return <PortfolioBlock index={Number(index)} projectName={project.projectName} projectDescription={project.projectDescription} thumbnail={project.thumbnail} url={project.url} repo={project.repo} key={index} />
                 })}
+
+                <h5>✧ And more to come. . . ✧</h5>
             </div>
         </section>
     )

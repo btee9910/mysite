@@ -4,6 +4,7 @@
     margin-inline: auto;
     border: 1px dashed rgb(232, 232, 232);
     border-radius: 10px;
+    transition: 0.2s;
 }
 
 .contactblock__subblock {
@@ -16,6 +17,7 @@
     text-align: center;
     border-right: 2px dotted rgb(232, 232, 232);
     border-radius: 10px;
+    transition: 0.2s;
 }
 
 .contactblock__icon__img {
@@ -29,6 +31,14 @@
     font-weight: 700;
 }
 
-.contactblock__content > a {
+.contactblock__content>a {
     color: unset;
+}
+
+.contactblock:hover {
+    border: 1px dashed rgb(67, 67, 67);
+}
+
+.contactblock:hover .contactblock__icon {
+    border-right: 2px solid rgb(67, 67, 67);
 }
