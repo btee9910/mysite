@@ -19,8 +19,8 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Portfolio />
       <Qualification />
+      <Portfolio />
       <Contact />
     </>
   )
