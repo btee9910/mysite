@@ -16,11 +16,32 @@
 
 .skills__category:hover .skills__title {
     transform: translateX(10px);
-    text-decoration: overline;
 }
 
 .skills__title > h5 {
+    position: relative;
+    overflow: hidden;
     font-weight: 600;
+}
+
+/* Fade in */
+.skills__title >h5::after  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #4b4b4b;
+    opacity: 1;
+    transition: transform 300ms;
+    transform: translateX(0px);
+    transform: translate3d(-100%, 0, 0);
+}
+
+.skills__category:hover .skills__title > h5::after  {
+    transform: translateX(10px);
+    transform: translate3d(0, 0, 0);
 }
 
 .skills__right__arrow {

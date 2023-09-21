@@ -8,7 +8,7 @@ const Skills = () => {
         skillsList: ['HTML', 'CSS', 'Javascript', 'React.js', 'Vue.js', 'jQuery', 'Next.js' ]
     }, {
         category: 'Backend Development',
-        skillsList: ['Node.js', 'Express.js', 'Ruby', 'Ruby on Rails', 'Python', 'C', 'MongoDB', 'PostgreSQL', 'Sqlite3']
+        skillsList: ['Node.js', 'Express.js', 'Ruby', 'Ruby on Rails', 'Python', 'C#', 'MongoDB', 'PostgreSQL', 'Sqlite3']
     }, {
         category: 'Development Tools',
         skillsList: ['Git', 'GitHub', 'Google Chrome', 'Firefox', 'Postman', 'Visual Studio Code', 'Slack', 'Xcode', 'Stack Overflow', 'Vercel', 'Figma']

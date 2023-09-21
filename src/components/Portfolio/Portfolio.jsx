@@ -3,17 +3,17 @@ import PortfolioBlock from './PortfolioBlock';
 
 const Portfolio = () => {
     const projects = [{
-        projectName: 'ToDo List ⇘',
-        projectDescription: 'A simple yet fully functional and user experience considered React frontend, Express backend and MongoDB project.',
+        projectName: 'ToDo List',
+        projectDescription: 'A simple yet fully functional and user experience considered project with React frontend, Express backend and MongoDB database.',
         thumbnail: './todolist.png',
         url: 'https://todolist-tee.vercel.app/'
     }, {
-        projectName: 'Tic Tac Toe ⇘',
-        projectDescription: 'A classic game built on frontend with JavaScript + JQuery.',
+        projectName: 'Tic Tac Toe',
+        projectDescription: 'A classic game built on frontend with JavaScript and JQuery.',
         thumbnail: './tictactoe.png',
         url: 'https://btee9910.github.io/TicTacToe/'
     }, {
-        projectName: 'HAUSSTUFF ⇘',
+        projectName: 'HAUSSTUFF',
         projectDescription: 'A B2C eCommerce store based in Melbourne, Victoria.',
         thumbnail: './hausstuff.png',
         url: 'https://hausstuff.com.au/'

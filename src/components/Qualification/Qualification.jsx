@@ -37,17 +37,16 @@ const Qualification = () => {
 
     return (
         <section className='qualification section' id='qualification'>
-            <div className="container">
+            <div className="container qualification__container">
                 <div className="qualificatio__block">
                     <h2>Qualification & Experience<span className='header__decor'>&#129;</span></h2>
-                    <h6>
-                        ✢ ✢ ✢ ✢ ✢ ✢ ✢ ✢ ✢ ✢✢ ✢ ✢ ✢ ✢
-                    </h6>
+                    
                 </div>
                 <div className="qualification__block qualification__timeline">
                     {qualifications.map((qualification, index) => {
                         return <TimelineBlock institution={qualification.institution} title={qualification.title} period={qualification.period} description={qualification.description} index={Number(index)} key={index} />
                     })};
+                    <h6>✢ ✢ ✢ ✢ ✢</h6>
                 </div>
             </div>
         </section>

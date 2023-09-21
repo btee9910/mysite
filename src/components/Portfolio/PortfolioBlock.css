@@ -1,8 +1,6 @@
-
 .portfolio__block {
     display: flex;
     margin: 40px 0;
-    border: 1px solid rgb(80, 80, 80);
     padding: 20px;
     border-radius: 20px;
     background-color: rgb(240, 240, 240);
@@ -10,27 +8,81 @@
 }
 
 .portfolio__block__subblock {
-    display: flex;
+    width: 50%;
 }
 
 .portfolio__block__image {
-    width: 40%;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid rgb(209, 209, 209);
 }
 
-.project__thumbnail {
-    width: 300px;
-    border: 1px solid rgb(209, 209, 209);
-    border-radius: 8px;
+.project__image {
+    display: block;
+    width: 100%;
     transition: 0.4s;
     box-shadow: 1px 1px 3px rgb(68, 68, 68);
 }
 
-.portfolio__block__description {
+.site__access_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    transform: translate3d(-15px, -15px, 0);
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.project__hover__effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 210%;
+    opacity: 0;
+    transform-origin: center;
+    transform: rotate(90deg);
+    transform: translate3d(55%, -90%, 0px) rotate(45deg);
+}
+
+.project__hover__effect__1 {
+    background-color: rgba(153, 76, 76, 0.311);
+    transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+
+}
+
+.project__hover__effect__2 {
+    background-color: rgba(234, 160, 160, 0.146);
+    transition: transform 400ms ease-in-out, opacity 500ms ease-in-out;
+
+}
+
+.portfolio__block:hover .project__hover__effect__1 {
+    transform: translate3d(-80%, 40%, 0px) rotate(45deg);
+    opacity: 1;
+}
+
+.portfolio__block:hover .project__hover__effect__2 {
+    transform: translate3d(-20%, -30%, 0px) rotate(45deg);
+    opacity: 1;
+}
+
+.portfolio__block:hover .site__access_icon {
+    opacity: 1;
+}
+
+.project__hover__effect > a {
+    display: block;
     width: 100%;
-    padding-inline: 20px;
-    align-items: center;
+    height: 100%;
+}
+
+ .portfolio__block__description {
+    display: block;
+    padding-inline: 30px;
+    margin-block: auto;
     text-align: left;
 }
 
@@ -39,7 +91,12 @@
 }
 
 .project__name > h5 {
+    margin-top: 20px;
     font-weight: 600;
+}
+
+.project__description {
+    text-align: justify;
 }
 
 .project__button__wrapper {
@@ -56,13 +113,11 @@
     line-height: 1.3;
     padding: 8px 40px;
     color: #ddcdd4;
-    transition: 0.4s ;
+    transition: 0.4s;
 }
 
 .project__button:hover {
     box-shadow: 1px 1px 3px rgb(68, 68, 68);
 }
 
-.project__thumbnail:hover {
-    box-shadow: 1px 1px 5px rgb(68, 68, 68);
-}
+
