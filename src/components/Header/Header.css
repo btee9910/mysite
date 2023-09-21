@@ -1,6 +1,11 @@
 
 .header {
-    padding: 20px 0px;
+    padding: 20px 0px 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #e8d2db;
+    width: 100%;
 }
 
 .nav {
@@ -31,4 +36,14 @@
     font-size: 20px;
     display: block;
     padding: 10px 0px;
+    transition: 0.4s ease-in-out;
 }
+
+.nav__link:hover {
+    color: grey;
+}
+
+.scroll__header {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease-in-out;
+  }

@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio/Portfolio'
 import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
 import './App.css'
+import Qualification from './components/Qualification/Qualification'
 
 
 
@@ -14,12 +15,13 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Portfolio/>
-      <Contact/>
+      <Header />
+      <Home />
+      <About />
+      <Skills />
+      <Qualification />
+      <Portfolio />
+      <Contact />
     </>
   )
 }

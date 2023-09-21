@@ -202,7 +202,7 @@ h5 {
 
 h6 {
 	margin: 5px 0px 5px 0px;
-	font-size: 15px;
+	font-size: 16px;
 	font-family: 'Anek Tamil', sans-serif;
 	color: #4b4b4b;
 	font-weight: 400;
@@ -221,7 +221,7 @@ MISC
 -----------------------------------------------------------------------------*/
 
 .section {
-	padding-block: 80px 80px;
+	padding-block: 100px 80px;
 }
 
 .header__decor {

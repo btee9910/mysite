@@ -26,10 +26,6 @@
     transition: color 1s ease-in-out;
 }
 
-.contact__body:hover .contact__comment {
-    color: rgb(20, 20, 20);
-}
-
 .footer {
     margin-top: 30px;
     padding-top: 20px;
