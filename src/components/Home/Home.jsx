@@ -10,7 +10,7 @@ const Home = () => {
                         <h5>Full Stack Software Developer, previously Mechanical Design Engineer</h5>
                     </div>
                     <div className='home__button__wrapper'>
-                        <a href="#portfolio" className='home__button'>View Projects</a>
+                        <a href="#portfolio" className='home__button btn'>View Projects</a>
                     </div>
                 </div>
                 <div className="home__subcontainer">

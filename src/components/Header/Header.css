@@ -1,10 +1,9 @@
-
 .header {
     padding: 20px 0px 10px 0;
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: #e8d2db;
+    background-color: var(--main-bg-color);
     width: 100%;
 }
 

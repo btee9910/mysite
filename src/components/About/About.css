@@ -1,3 +1,7 @@
 .about {
-	background: #ece4e7;
+	background: var(--second-bg-color);
+}
+
+.about > div >* {
+	color: var(--darker-font-color)
 }

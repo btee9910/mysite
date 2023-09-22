@@ -1,5 +1,5 @@
 .qualification {
-    background-color: #ece4e7;
+    background-color: var(--second-bg-color);
     text-align: center;
 }
 

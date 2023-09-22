@@ -7,12 +7,16 @@
 
 .timeline__description {
     margin-top: 11px;
-    border-top: 1px solid rgb(106, 106, 106);
+    border-top: 1px solid var(--darker-font-color);
+    color: var(--darker-font-color);
     text-align: justify;
     overflow: hidden;
-    /* height: 0; */
     transition: ease-in-out 2s;
     animation: appear 1s ease-in-out;
+}
+
+.timeline__subblock > h5 {
+    color: var(--darker-font-color);
 }
 
 @keyframes appear {
@@ -30,14 +34,9 @@
     transition: max-height linear 0.4s;
 }
 
-/* .timeline__block:hover .timeline__description {
-    opacity: 100;
-    max-height: 100%;
-} */
-
 .timeline__block:hover .timeline__pin {
-    color: rgb(82, 82, 82);
-    text-shadow: 0px 0px 8px rgb(95, 71, 71);
+    color: var(--darker-font-color);
+    text-shadow: 0px 0px 8px var(--dark-shadow-color);
 }
 
 .timeline__subblock {
@@ -57,7 +56,7 @@
     display: block;
     width: 3px;
     height: 100%;
-    background-color: rgba(46, 46, 46, 0.307);
+    background-color: rgba(46, 46, 46, 0.443);
     margin: 0 auto;
     transform: translateY(-12px);
     z-index: -10 !important;
