@@ -10,12 +10,14 @@ const Home = () => {
                         <h5>Full Stack Software Developer, previously Mechanical Design Engineer</h5>
                     </div>
                     <div className='home__button__wrapper'>
-                        <a href="#portfolio" className='home__button'>View Projects</a>
+                        <a href="#portfolio" className='home__button btn'>View Projects</a>
                     </div>
                 </div>
                 <div className="home__subcontainer">
                     <div className="home__background">
-                        <img className="profile__pic" src="profile-pic.png" alt="profile picture" />
+                        <div className='home__img'>
+                            <div className='home__img__frame'></div>
+                        </div>
                     </div>
                 </div>
             </div>

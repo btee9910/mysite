@@ -46,7 +46,7 @@ const Qualification = () => {
                     {qualifications.map((qualification, index) => {
                         return <TimelineBlock institution={qualification.institution} title={qualification.title} period={qualification.period} description={qualification.description} index={Number(index)} key={index} />
                     })};
-                    <h6>✢ ✢ ✢ ✢ ✢</h6>
+                    <h6 className='timeline__decor'>✢ ✢ ✢ ✢ ✢</h6>
                 </div>
             </div>
         </section>

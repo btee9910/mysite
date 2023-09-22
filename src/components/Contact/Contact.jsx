@@ -41,7 +41,7 @@ const Contact = () => {
     return (
         <section className='contact section' id='contact'>
             <div className="container">
-                <h2>Contact<span className='header__decor'>&#129;</span></h2>
+                <h2 className='contact__title'>Contact<span className='header__decor'>&#129;</span></h2>
                 <div className="contact__body">
                     <div className="contact__content contact__info">
                         {basicInfos.map((info, i) => {

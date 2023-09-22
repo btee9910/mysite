@@ -23,7 +23,7 @@ const PortfolioBlock = ({ index, projectName, projectDescription, thumbnail, url
                     <h6>{projectDescription}</h6>
                 </div>
                 <div className='project__button__wrapper'>
-                    <a href={url} className='project__button' target="_blank">View site</a>
+                    <a href={url} className='project__button btn' target="_blank">View site</a>
                 </div>
                 {/* </div> */}
             </div>

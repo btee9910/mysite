@@ -42,3 +42,7 @@
 .contactblock:hover .contactblock__icon {
     border-right: 2px solid rgb(67, 67, 67);
 }
+
+.contactblock:hover .contactblock__icon {
+    background-color: var(--inverse-font-color);
+}
