@@ -149,9 +149,13 @@ COLOR
 -----------------------------------------------------------------------------*/
 
 :root {
+	--primary-font: 'Anek Tamil', sans-serif;
+	--secondary-font: 'Taviraj', serif;
+
 	--backup: #e8d2db;
 	--main-bg-color: #FAF1E4;
 	--second-bg-color: #9EB384;
+	--third-bg-color: #CEDEBD;
 	--subtitle-color: #141414;
 	--font-color: #4b4b4b;
 	--darker-font-color: #202020;
@@ -191,7 +195,7 @@ BODY STYLES
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Anek Tamil', sans-serif;
+	font-family: var(--primary-font);
 	color: var(--font-color);
 	font-size: 13px;
 	line-height: 1.1;
@@ -215,8 +219,8 @@ GLOBAL STYLES
 h1 {
 	margin: 0px 0px 10px 0px;
 	font-size: 95px;
-	font-family: 'Taviraj', serif;
-	color: rgb(115, 85, 85);
+	font-family: var(--secondary-font);
+	color: var(--subtitle-color);
 	line-height: 1.1;
 	font-weight: 800;
 	position: relative;
@@ -226,7 +230,7 @@ h1 {
 h2 {
 	margin: 0px 0px 20px 0px;
 	font-size: 50px;
-	font-family: 'Taviraj', serif;
+	font-family: var(--secondary-font);
 	color: var(--darker-font-color);
 	line-height: 1.1;
 }
@@ -234,7 +238,7 @@ h2 {
 h5 {
 	margin: 0px 0px 10px 0px;
 	font-size: 22px;
-	font-family: 'Anek Tamil', sans-serif;
+	font-family: var(--primary-font);
 	color: var(--font-color);
 	font-weight: 400;
 	line-height: 1.4;
@@ -242,18 +246,20 @@ h5 {
 
 h6 {
 	margin: 5px 0px 5px 0px;
-	font-size: 16px;
-	font-family: 'Anek Tamil', sans-serif;
+	font-size: 17px;
+	font-family: var(--primary-font);
 	color: var(--font-color);
 	font-weight: 400;
 	line-height: 1.1;
 }
 
 p {
-	font-family: 'Anek Tamil', sans-serif;
+	font-family: var(--primary-font);
 	margin: 0px 0px 15px 0px;
 	letter-spacing: 1px;
 	line-height: 1.35;
+	font-size: 15px;
+	font-weight: 500;
 }
 
 /*----------------------------------------------------------------------------- 

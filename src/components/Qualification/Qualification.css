@@ -4,9 +4,16 @@
 }
 
 .qualification__container {
-    max-width: 800px !important;
+    max-width: 900px !important;
 }
 
 .qualification__timeline {
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.timeline__decor {
+    margin: 20px;
 }
