@@ -15,9 +15,7 @@ const Home = () => {
                 </div>
                 <div className="home__subcontainer">
                     <div className="home__background">
-                        <div className='home__img'>
-                            <div className='home__img__frame'></div>
-                        </div>
+                        <div className='home__img'></div>
                     </div>
                 </div>
             </div>
