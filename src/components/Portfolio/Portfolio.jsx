@@ -25,7 +25,7 @@ const Portfolio = () => {
     return (
         <section className='portfolio section' id='portfolio'>
             <div className='container portfolio__container'>
-                <h2>Featured Portfolio<span className='header__decor'>&#129;</span></h2>
+                <h2>Featured Portfolio<span className='header__decor'>•</span></h2>
 
                 {projects.map((project, index) => {
                     return <PortfolioBlock index={Number(index)} projectName={project.projectName} projectDescription={project.projectDescription} thumbnail={project.thumbnail} url={project.url} repo={project.repo} key={index} />

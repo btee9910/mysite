@@ -1,7 +1,7 @@
 .contactblock {
     display: flex;
     min-width: 275px;
-    margin-inline: auto;
+    margin: 10px auto;
     border: 1px dashed rgb(232, 232, 232);
     border-radius: 10px;
     transition: 0.2s;
@@ -10,7 +10,7 @@
 .contactblock__subblock {
     display: flex;
     align-items: center;
-    padding: 12px;
+    padding: 10px;
 }
 
 .contactblock__icon {

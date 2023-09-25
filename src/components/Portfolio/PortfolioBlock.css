@@ -15,12 +15,16 @@
     position: relative;
     overflow: hidden;
     border-radius: 12px;
+    height: 205px;
     border: 2px solid rgba(91, 78, 78, 0.269);
 }
 
 .project__image {
-    display: block;
-    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    height: 205px;
     transition: 0.4s;
     box-shadow: 1px 1px 3px var(--dark-shadow-color);
 }
@@ -139,9 +143,27 @@
 .project__button__wrapper {
     display: flex;
     justify-content: flex-end;
-    padding-block: 10px;
+    padding-block: 5px;
 }
 
 .project__button {
     color: #a972721f;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__block__description {
+        padding-inline: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .portfolio__block__description {
+        padding-inline: 10px;
+    }
+    .portfolio__block__image {
+        height: 220px;
+    }
+    .project__image {
+        height: 220px;
+    }
 }

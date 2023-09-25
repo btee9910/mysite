@@ -3,7 +3,6 @@
 }
 
 .skills__subblock {
-    width: 50%;
     justify-content: flex-start;
     margin-bottom: 20px;
 }
@@ -12,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     transition: 0.4s;
+    width: 40%;
 }
 
 .skills__category:hover .skills__title {
@@ -22,9 +22,10 @@
     position: relative;
     overflow: hidden;
     font-weight: 600;
+    text-align: left;
+    margin-right: 10px;
 }
 
-/* Fade in */
 .skills__title > h5::after  {
     content: '';
     position: absolute;
@@ -54,7 +55,7 @@
 .skills__list {
     display: flex;
     flex-wrap: wrap;
-
+    width: 60%;
 }
 
 .skill__each {
@@ -74,4 +75,24 @@
 .skill__each:hover {
     color: var(--inverse-font-color);
     box-shadow: 1px 1px 5px rgb(149, 148, 148);
+}
+
+@media screen and (max-width: 768px) {
+    .skills__title {
+        width: 35%;
+    }
+    
+    .skills__list {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .skills__title {
+        width: 45%;
+    }
+    
+    .skills__list {
+        width: 55%;
+    }
 }

@@ -2,6 +2,10 @@
 	background: var(--second-bg-color);
 }
 
-.about > div >* {
+.about>div>* {
 	color: var(--darker-font-color)
+}
+
+.about>div>h5 {
+	text-align: justify;
 }

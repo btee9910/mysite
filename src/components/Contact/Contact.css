@@ -8,18 +8,23 @@
 .contact__title {
     color: var(--inverse-font-color);
 }
+
 .contact__body {
     width: 100%;
-    display: inline-flex;
 }
 
 .contact__content {
-    width: 50%;
-    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 20px;
 }
 
-.contact__content > * {
-    margin-bottom: 20px;
+.contact__button {
+    width: 285px;
+}
+
+.contact__notice {
+    width: 30%;
 }
 
 .contact__comment {
@@ -36,7 +41,24 @@
 
 }
 
-.footer__content > a {
+.footer__content>a {
     color: var(--inverse-font-color);
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact__notice {
+        width: 20%;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact__content {
+        display: block;
+        margin: 0 auto;
+    }
+    .contact__notice {
+        width: 80%;
+    }
 }

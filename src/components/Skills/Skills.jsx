@@ -20,7 +20,7 @@ const Skills = () => {
     return (
         <section className='skills section' id='skills'>
             <div className='container'>
-                <h2>Skills<span className='header__decor'>&#129;</span></h2>
+                <h2>Skills<span className='header__decor'>•</span></h2>
                 <div className='skills__body'>
                     {skillsCategories.map((category, i) => {
                         return (
