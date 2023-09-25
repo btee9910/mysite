@@ -8,6 +8,7 @@
 .contact__title {
     color: var(--inverse-font-color);
 }
+
 .contact__body {
     width: 100%;
     display: inline-flex;
@@ -18,7 +19,7 @@
     padding: 10px;
 }
 
-.contact__content > * {
+.contact__content>* {
     margin-bottom: 20px;
 }
 
@@ -36,7 +37,14 @@
 
 }
 
-.footer__content > a {
+.footer__content>a {
     color: var(--inverse-font-color);
     text-decoration: underline;
+}
+
+@media screen and (max-width: 640px) {
+    .contact__body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

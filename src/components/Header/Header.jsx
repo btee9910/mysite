@@ -25,8 +25,8 @@ const Header = () => {
 
     return (
         <header className='header'>
-            <nav className="nav container">
-                <a href="index.html">
+            <nav className="nav__container container">
+                <a href="index.html" className='header__logo'>
                     <span className='nav__logo'>#Brandon</span>
                     <span className='nav__logo surname'>TEE</span>
                 </a>
@@ -35,36 +35,39 @@ const Header = () => {
                     <ul className="nav__list">
                         <li className="nav__item">
                             <a href="#home" className="nav__link" onClick={(e) => setActiveNav(['#home', e])}>
-                                <i className="uil uil- nav__icon">Home</i>
+                                <i className="nav__icon">Home</i>
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#about" className="nav__link" onClick={(e) => setActiveNav(['#about', e])}>
-                                <i className="uil uil- nav__icon">About</i>
+                                <i className="nav__icon">About</i>
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#skills" className="nav__link" onClick={(e) => setActiveNav(['#skills', e])}>
-                                <i className="uil uil- nav__icon">Skills</i>
+                                <i className="nav__icon">Skills</i>
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#qualification" className="nav__link" onClick={(e) => setActiveNav(['#qualification', e])}>
-                                <i className="uil uil- nav__icon">Qualification</i>
+                                <i className="nav__icon">Qualification</i>
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#portfolio" className="nav__link" onClick={(e) => setActiveNav(['#portfolio', e])}>
-                                <i className="uil uil- nav__icon">Portfolio</i>
+                                <i className="nav__icon">Portfolio</i>
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#contact" className="nav__link" onClick={(e) => setActiveNav(['#contact', e])}>
-                                <i className="uil uil- nav__icon">Contact</i>
+                                <i className="nav__icon">Contact</i>
                             </a>
                         </li>
                     </ul>
                 </div>
+                {/* <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+                    <i className="uil-apps"></i>
+                </div> */}
             </nav>
         </header>
     )
