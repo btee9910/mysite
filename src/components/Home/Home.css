@@ -78,6 +78,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .home {
+        margin-top: -30px;
+    }
+
     .home__intro__wrapper>h1 {
         font-size: 100px;
     }
@@ -102,5 +106,19 @@
 
     .home__img {
         height: 450px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .home__intro__wrapper>h1 {
+        font-size: 60px;
+    }
+
+    .home__background {
+        padding-top: 60px;
+    }
+
+    .home__img {
+        height: 320px;
     }
 }

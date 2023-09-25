@@ -4,6 +4,7 @@ import './Header.css'
 const Header = () => {
     const [activeNav, setActiveNav] = useState(['#home', '']);
     const [previousEvent, setPreviousEvent] = useState('');
+    const [toggle, showMenu] = useState(false)
 
     useEffect(() => {
         if (previousEvent) {
@@ -31,43 +32,44 @@ const Header = () => {
                     <span className='nav__logo surname'>TEE</span>
                 </a>
 
-                <div className="nav__menu">
+                <div className={toggle ? 'nav__menu show-menu' : 'nav__menu'}>
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <a href="#home" className="nav__link" onClick={(e) => setActiveNav(['#home', e])}>
+                            <a href="#home" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#home', e])}}>
                                 <i className="nav__icon">Home</i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#about" className="nav__link" onClick={(e) => setActiveNav(['#about', e])}>
+                            <a href="#about" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#about', e])}}>
                                 <i className="nav__icon">About</i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#skills" className="nav__link" onClick={(e) => setActiveNav(['#skills', e])}>
+                            <a href="#skills" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#skills', e])}}>
                                 <i className="nav__icon">Skills</i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#qualification" className="nav__link" onClick={(e) => setActiveNav(['#qualification', e])}>
+                            <a href="#qualification" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#qualification', e])}}>
                                 <i className="nav__icon">Qualification</i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#portfolio" className="nav__link" onClick={(e) => setActiveNav(['#portfolio', e])}>
+                            <a href="#portfolio" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#portfolio', e])}}>
                                 <i className="nav__icon">Portfolio</i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link" onClick={(e) => setActiveNav(['#contact', e])}>
+                            <a href="#contact" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#contact', e])}}>
                                 <i className="nav__icon">Contact</i>
                             </a>
                         </li>
                     </ul>
+                    <i className="uil nav__close" onClick={() => showMenu(!toggle)}>X</i>
                 </div>
-                {/* <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-                    <i className="uil-apps"></i>
-                </div> */}
+                <div className="nav__toggle" onClick={() => showMenu(!toggle)}>
+                    <i className="toggle__button">ooo</i>
+                </div>
             </nav>
         </header>
     )

@@ -15,16 +15,17 @@
 
 .contact__content {
     display: inline-block;
-    vertical-align: middle;
     padding-bottom: 20px;
 }
 
 .contact__button {
     width: 285px;
+    vertical-align: middle;
 }
 
 .contact__notice {
     width: 30%;
+    vertical-align: top;
 }
 
 .contact__comment {
@@ -38,7 +39,6 @@
     margin-top: 30px;
     padding-top: 20px;
     border-top: 2px solid rgb(121, 121, 121);
-
 }
 
 .footer__content>a {
@@ -58,7 +58,20 @@
         display: block;
         margin: 0 auto;
     }
+
     .contact__notice {
-        width: 80%;
+        width: 90%;
+    }
+
+    .footer {
+        margin-bottom: 60px;
+    }
+
+    .contact__notice {
+        transform: translateY(-225px);
+    }
+
+    .contact__info {
+        transform: translateY(100px);
     }
 }
