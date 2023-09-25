@@ -33,9 +33,9 @@ const Contact = () => {
         url: 'https://github.com/btee9910'
     }, {
         icon: './www.png',
-        content: 'btee9910.github.io/mysite/',
+        content: 'btee9910.github.io/mysite',
         alt: 'world wide web icon',
-        url: 'https://btee9910.github.io/mysite/'
+        url: 'https://btee9910.github.io/mysite'
     }];
 
     return (
@@ -43,17 +43,17 @@ const Contact = () => {
             <div className="container">
                 <h2 className='contact__title'>Contact<span className='header__decor'>•</span></h2>
                 <div className="contact__body">
-                    <div className="contact__content contact__info">
+                    <div className="contact__content contact__button contact__info">
                         {basicInfos.map((info, i) => {
                             return <ContactBlock icon={info.icon} content={info.content} alt={info.alt} url={info.url} key={i} />
                         })}
                     </div>
 
-                    <div className="contact__content">
+                    <div className="contact__content contact__notice">
                         <span className='contact__comment'>Looking forward to connect and explore new opportunities. <br />Feel free to get in touch with me.</span>
                     </div>
 
-                    <div className="contact__content contact__sites">
+                    <div className="contact__content contact__button contact__sites">
                         {sites.map((site, i) => {
                             return <ContactBlock icon={site.icon} content={site.content} alt={site.alt} url={site.url} key={i} />
                         })}

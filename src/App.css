@@ -224,7 +224,7 @@ GLOBAL STYLES
 
 h1 {
 	margin: 0px 0px 10px 0px;
-	font-size: 95px;
+	font-size: 135px;
 	font-family: var(--secondary-font);
 	color: var(--subtitle-color);
 	line-height: 1.1;
@@ -291,9 +291,9 @@ MISC
 	transition: all 0.5s ease-in-out;
 }
 
-body * {
+/* body * {
     border: 1px solid #8f033d;
-}
+} */
 
 /* screens-ref {
 	sm: '640px',

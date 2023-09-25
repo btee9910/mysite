@@ -2,8 +2,8 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <section className='section' id='home'>
-            <div className="home__container container">
+        <section className='home section' id='home'>
+            <div className="container">
                 <div className="home__subcontainer">
                     <div className='home__intro__wrapper'>
                         <h1>Brandon Tee</h1>

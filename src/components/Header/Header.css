@@ -1,5 +1,5 @@
 .header {
-    padding: 20px 0px 10px 0;
+    padding: 25px 0px 15px 0;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -34,7 +34,7 @@
 
 .nav__item {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .nav__link {
@@ -53,8 +53,15 @@
     transition: 0.2s ease-in-out;
 }
 
+@media screen and (max-width: 768px) {
+    .nav__list {
+        /* flex-wrap: wrap; */
+    }
+}
+
+
 @media screen and (max-width: 640px) {
     .nav__list {
-        justify-content: left;
+        /* flex-wrap: wrap; */
     }
 }

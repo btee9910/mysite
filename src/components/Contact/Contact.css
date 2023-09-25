@@ -11,16 +11,20 @@
 
 .contact__body {
     width: 100%;
-    display: inline-flex;
 }
 
 .contact__content {
-    width: 50%;
-    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 20px;
 }
 
-.contact__content>* {
-    margin-bottom: 20px;
+.contact__button {
+    width: 285px;
+}
+
+.contact__notice {
+    width: 30%;
 }
 
 .contact__comment {
@@ -42,9 +46,19 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 640px) {
-    .contact__body {
-        flex-wrap: wrap;
-        justify-content: center;
+@media screen and (max-width: 1024px) {
+    .contact__notice {
+        width: 20%;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact__content {
+        display: block;
+        margin: 0 auto;
+    }
+    .contact__notice {
+        width: 80%;
     }
 }
