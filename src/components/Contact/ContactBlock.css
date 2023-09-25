@@ -46,3 +46,9 @@
 .contactblock:hover .contactblock__icon {
     background-color: var(--inverse-font-color);
 }
+
+@media screen and (max-width: 768px) {
+    .contactblock__content>a {
+        margin-inline: auto;
+    }
+}

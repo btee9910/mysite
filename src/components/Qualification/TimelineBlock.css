@@ -28,7 +28,7 @@
 
 .timeline__block:hover {
     .timeline__description {
-        max-height: 400px;
+        max-height: 500px;
         opacity: 1;
     }
 
