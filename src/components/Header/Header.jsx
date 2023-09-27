@@ -34,14 +34,14 @@ const Header = () => {
 
                 <div className={toggle ? 'nav__menu show-menu' : 'nav__menu'}>
                     <ul className="nav__list">
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="#home" className="nav__link" onClick={(e) => { showMenu(!toggle); setActiveNav(['#home', e]) }}>
                                 <i className="nav__icon">
                                     <div className="nav__icon__block"><img src="./home.svg" alt="home icon" className="nav__icon__img" /></div>
                                     <div>Home</div>
                                 </i>
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav__item">
                             <a href="#about" className="nav__link" onClick={(e) => { showMenu(!toggle); setActiveNav(['#about', e]) }}>
                                 <i className="nav__icon">

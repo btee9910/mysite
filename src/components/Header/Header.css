@@ -126,11 +126,22 @@
 
 @media screen and (max-width:425px) {
     .nav__menu {
-      padding: 2rem 0.25rem 4rem;
+        padding: 2rem 0.25rem 4rem;
     }
-  
+
     .nav__list {
-      column-gap: 0;
+        column-gap: 0;
     }
-  }
-  
+
+    .header__logo {
+        font-size: 30px;
+    }
+
+    .nav__link {
+        font-size: 15px;
+    }
+
+    .header {
+        padding: 8px 0px 5px 0;
+    }
+}

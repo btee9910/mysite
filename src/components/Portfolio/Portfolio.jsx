@@ -16,7 +16,7 @@ const Portfolio = () => {
         repo: 'https://github.com/btee9910/TicTacToe'
     }, {
         projectName: 'HAUSSTUFF',
-        projectDescription: 'A B2C eCommerce store based in Melbourne, Victoria.',
+        projectDescription: 'A B2C eCommerce boutique specializing in stylish home and garden project, based in Melbourne, Victoria.',
         thumbnail: './hausstuff.png',
         url: 'https://hausstuff.com.au/',
         repo: ''
