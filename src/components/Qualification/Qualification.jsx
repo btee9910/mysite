@@ -3,35 +3,71 @@ import './Qualification.css';
 
 const Qualification = () => {
     const qualifications = [{
-        institution: '❂ Open to Work',
-        title: <h6>Full Stack Software Developer</h6>,
+        institution: <h6>Full Stack Software Developer</h6>,
+        title: <h5>❂ Open to Work</h5>,
         period: <h6>Present</h6>,
-        description: <p>I am excited to kickstart my career change and actively seeking a full-stack software developer position. Having recently completed a rigorous coding bootcamp, I am eager to contribute my newfound expertise to innovative projects and continue to explore and learn in the ever-evolving world of software development.</p>
+        description: <p>I am excited to kickstart my career change and actively seeking a full-stack software developer position. <br /> Having recently completed a rigorous coding bootcamp, I am eager to contribute my newfound expertise to innovative projects and continue to explore and learn in the ever-evolving world of software development.</p>
     }, {
-        institution: 'General Assembly',
-        title: <h6>Software Engineering Intensive Course</h6>,
+        institution: <h6>General Assembly</h6>,
+        title: <h5>Software Engineering Immersive</h5>,
         period: <h6>Mar 2023 ▸ Jun 2023</h6>,
-        description: <p>A 12-weeks full time coding bootcamp, one of the most known course that focusing on career transformation in tech. During the course I have learnt to efficient communication and collaboration with full stack web development teams to carry out complex projects from initial concept to completion. Cultivated expertise in version control using Git and GitHub, employing these tools within an Agile software development framework for the execution of multiple software engineering projects.</p>
+        description: <p>A 12 weeks comprehensive software engineering program, focusing on hands-on experience with full stack software development and tools.
+            <br />
+            → Main programming language: <span className='programming__languege'>HTML</span>, <span className='programming__languege'>CSS</span>, <span className='programming__languege'>JavaScript</span> and <span className='programming__languege'>Ruby</span>.
+            <br />
+            → Frameworks include <span className='programming__languege'>React</span>, <span className='programming__languege'>Vue</span>, <span className='programming__languege'>Next</span>, <span className='programming__languege'>Ruby on Rails</span>, <span className='programming__languege'>Node</span>, <span className='programming__languege'>Express</span> and etc.
+            <br />
+            → Development tools include <span className='programming__languege'>Git</span>, <span className='programming__languege'>Github</span>, <span className='programming__languege'>VS code</span>, <span className='programming__languege'>Postman</span> and etc.
+            <br />
+            → Developed a strong command of Git and GitHub for version control while collaborating effectively within a team environment. 
+            <br />
+            → Employing these tools within an Agile software development framework for the execution of multiple software engineering projects from initial concept to completion.</p>
     }, {
-        institution: 'HAUSSTUFF',
-        title: <h6>E-commerce Entrepreneur</h6>,
+        institution: <h6>HAUSSTUFF</h6>,
+        title: <h5>E-commerce Entrepreneur</h5>,
         period: <h6>May 2022 ▸ Present</h6>,
-        description: <p>As a design engineer with a strong passion for entrepreneurship, I took the initiative to establish and manage my own e-commerce store after departing from my position as a design engineer. Over the course of my tenure as an E-commerce Entrepreneur, I gained invaluable experience in various facets of running online retail business. <br /> Product Management: I sourced and managed products, ensuring a steady supply and competitive prices.<br /> Website Management: I maintained an easy-to-use website, improved search engine visibility, and handled online advertising. <br /> Customer Satisfaction: I prioritized excellent customer service, addressing inquiries promptly and resolving issues. <br /> Financial Management: I managed budgets, controlled expenses, and consistently grew revenue and profits. <br /> Data Analysis: I used data analysis to make informed decisions about products and marketing strategies.</p>
+        description: <p>As a Design engineer with a strong passion for entrepreneurship, I took the initiative to establish and manage my own e-commerce store.
+            <br />
+            → Improve website UI design with <span className='programming__languege'>CSS</span> customisation that enhance user experience and indirectly improve SEO.
+            <br />
+            → Product Management: Sourced and managed products, ensuring a steady supply and competitive prices.
+            <br />
+            → Website Management: Maintained an easy-to-use website, improved search engine visibility, and handled online advertising.
+            <br />
+            → Customer Satisfaction: Prioritized excellent customer service, addressing inquiries promptly and resolving issues.
+            <br />
+            → Financial Management: Managed budgets, controlled expenses, and consistently grew revenue and profits.
+            <br />
+            → Data Analysis: Used data analysis to make informed decisions about products and marketing strategies.</p>
     }, {
-        institution: 'Hi-Rise Access',
-        title: <h6>Design Engineer</h6>,
+        institution: <h6>Hi-Rise Access</h6>,
+        title: <h5>Design Engineer</h5>,
         period: <h6>Jun 2019 ▸ Feb 2022</h6>,
-        description: <p>A consulting and engineering company, specialises in customised height safety, fall protection and suspended access solutions. As part of my role, I am responsible for overseeing all aspects of product design for manufacturing, which includes consultancy, cost estimating, quoting, designing, 3D modelling, 2D drawing, prototyping, testing, report writing, certification, material sourcing, manufacturing and installation process.</p>
+        description: <p>A consulting and engineering company, specialises in customised height safety, fall protection and suspended access solutions.
+            <br />
+            → Responsible for overseeing all aspects of product design for manufacturing, from concept to production.
+            <br />
+            → Developed my skills further in problem-solving, project management, continuous learning and product design.</p>
     }, {
-        institution: 'University of Melbourne',
-        title: <h6>Master of Engineering (MEng) <br/>  Mechanical Engineering</h6>,
+        institution: <h6>University of Melbourne</h6>,
+        title: <h5>Master of Engineering (MEng) <br />  Mechanical Engineering</h5>,
         period: <h6>Jun 2016 ▸ Dec 2018</h6>,
-        description: <p>nothing yet</p>
+        description: <p>→ Eager to engage in advanced coursework, research projects, and hands-on experiences to gain practical insights into complex mechanical systems and innovations.
+            <br />
+            → Completed a capstone project - Fluid mechanics in FEniCS (<span className='programming__languege'>Python</span>), solving the incompressible Navier-Stokes equation for flow through cylinder and airfoil, applying my existing knowledge in Python to solve real-world problems </p>
     }, {
-        institution: 'University of Melbourne',
-        title: <h6>Bechelor of Science (BSc) <br/> Mechanical System</h6>,
+        institution: <h6>University of Melbourne</h6>,
+        title: <h5>Bechelor of Science (BSc) <br /> Mechanical System</h5>,
         period: <h6>Feb 2013 ▸ Jun 2016</h6>,
-        description: <p>nothing yet</p>
+        description: <p>→ Acquired in-depth knowledge of fundamental engineering principles, including thermodynamics, fluid mechanics, and mechanical design.
+            <br />
+            → Proficient in using industry-standard software and tools, such as Matlab, Solidworks, Simulink and etc.
+            <br />
+            Took courses in:
+            <br />
+            - Engineering Computation which included extensive learning in programming using the <span className='programming__languege'>C language</span> to solve complex engineering problem;
+            <br />
+            - Foundation of Computing which expands my coding knowledge further in <span className='programming__languege'>Python</span>.</p>
     }];
 
 
