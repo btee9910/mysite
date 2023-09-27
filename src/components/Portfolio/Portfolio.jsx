@@ -10,7 +10,7 @@ const Portfolio = () => {
         repo: 'https://github.com/btee9910/todolist'
     }, {
         projectName: 'Tic Tac Toe',
-        projectDescription: 'A classic game built on frontend with HTML, CSS, JavaScript and JQuery.',
+        projectDescription: 'A classic game built on frontend with HTML, CSS, JavaScript and JQuery. This was built by myself on the 3rd week of the Software Engineering Bootcamp at General Assembly.',
         thumbnail: './tictactoe.png',
         url: 'https://btee9910.github.io/TicTacToe/',
         repo: 'https://github.com/btee9910/TicTacToe'
