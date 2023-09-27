@@ -16,7 +16,7 @@ const PortfolioBlock = ({ index, projectName, projectDescription, thumbnail, url
                 {/* <div className='project'> */}
                 <div className='project__name'>
                     <h5>{projectName}</h5>
-                    {repo && <a href="https://github.com/btee9910/TicTacToe" target='_blank'><img src="github.png" alt="github icon" /></a>
+                    {repo && <a href={repo} target='_blank'><img src="github.png" alt="github icon" /></a>
                     }
                 </div>
                 <div className='project__description'>

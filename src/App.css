@@ -262,9 +262,16 @@ p {
 	font-family: var(--primary-font);
 	margin: 0px 0px 15px 0px;
 	letter-spacing: 1px;
-	line-height: 1.35;
+	line-height: 1.2;
 	font-size: 15px;
 	font-weight: 500;
+}
+
+p>br {
+	display: block;
+	margin: 4px 0;
+	line-height:10px;
+	content: " ";
 }
 
 /*----------------------------------------------------------------------------- 
@@ -291,9 +298,9 @@ MISC
 	transition: all 0.5s ease-in-out;
 }
 
-body * {
+/* body * {
 	border: 1px solid #8f033d;
-}
+} */
 
 /* screens-ref {
 	sm: '640px',

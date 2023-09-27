@@ -68,10 +68,11 @@
     }
 
     .contact__notice {
-        transform: translateY(-225px);
+        transform: translateY(-170px);
+        min-height: 122px;
     }
 
     .contact__info {
-        transform: translateY(100px);
+        transform: translateY(162px);
     }
 }

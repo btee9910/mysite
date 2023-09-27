@@ -35,43 +35,61 @@ const Header = () => {
                 <div className={toggle ? 'nav__menu show-menu' : 'nav__menu'}>
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <a href="#home" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#home', e])}}>
-                                <i className="nav__icon">Home</i>
+                            <a href="#home" className="nav__link" onClick={(e) => { showMenu(!toggle); setActiveNav(['#home', e]) }}>
+                                <i className="nav__icon">
+                                    <div className="nav__icon__block"><img src="./home.svg" alt="home icon" className="nav__icon__img" /></div>
+                                    <div>Home</div>
+                                </i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#about" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#about', e])}}>
-                                <i className="nav__icon">About</i>
+                            <a href="#about" className="nav__link" onClick={(e) => { showMenu(!toggle); setActiveNav(['#about', e]) }}>
+                                <i className="nav__icon">
+                                    <div className="nav__icon__block"><img src="./about.svg" alt="about icon" className="nav__icon__img" /></div>
+                                    <div>About</div>
+                                </i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#skills" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#skills', e])}}>
-                                <i className="nav__icon">Skills</i>
+                            <a href="#skills" className="nav__link" onClick={(e) => { showMenu(!toggle); setActiveNav(['#skills', e]) }}>
+                                <i className="nav__icon">
+                                    <div className="nav__icon__block"><img src="./skills.svg" alt="skills icon" className="nav__icon__img" /></div>
+                                    <div>Skills</div>
+                                </i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#qualification" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#qualification', e])}}>
-                                <i className="nav__icon">Qualification</i>
+                            <a href="#qualification" className="nav__link" onClick={(e) => { showMenu(!toggle); setActiveNav(['#qualification', e]) }}>
+                                <i className="nav__icon">
+                                    <div className="nav__icon__block"><img src="./qualification.svg" alt="qualification icon" className="nav__icon__img" /></div>
+                                    <div>Qualification</div>
+                                </i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#portfolio" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#portfolio', e])}}>
-                                <i className="nav__icon">Portfolio</i>
+                            <a href="#portfolio" className="nav__link" onClick={(e) => { showMenu(!toggle); setActiveNav(['#portfolio', e]) }}>
+                                <i className="nav__icon">
+                                    <div className="nav__icon__block"><img src="./portfolio.svg" alt="portfolio icon" className="nav__icon__img" /></div>
+                                    <div>Portfolio</div>
+                                </i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link" onClick={(e) => {showMenu(!toggle); setActiveNav(['#contact', e])}}>
-                                <i className="nav__icon">Contact</i>
+                            <a href="#contact" className="nav__link" onClick={(e) => { showMenu(!toggle); setActiveNav(['#contact', e]) }}>
+                                <i className="nav__icon">
+                                    <div className="nav__icon__block"><img src="./contact.svg" alt="contact icon" className="nav__icon__img" /></div>
+                                    <div>Contact</div>
+                                </i>
                             </a>
                         </li>
                     </ul>
-                    <i className="uil nav__close" onClick={() => showMenu(!toggle)}>X</i>
+                    <i className="uil nav__close" onClick={() => showMenu(!toggle)}><img src="./hide.svg" alt="hide icon" /></i>
                 </div>
                 <div className="nav__toggle" onClick={() => showMenu(!toggle)}>
-                    <i className="toggle__button">ooo</i>
+                    <i className="toggle__button"><img src="./menu.svg" alt="menu icon" /></i>
                 </div>
             </nav>
-        </header>
+        </header >
     )
 }
 

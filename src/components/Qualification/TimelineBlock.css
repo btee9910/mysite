@@ -32,7 +32,7 @@
         opacity: 1;
     }
 
-    .timeline__block__title {
+    .timeline__subblock >h5 {
         color: var(--contrast-bg-color);
     }
 }
@@ -65,5 +65,10 @@
 .timeline__block:hover .timeline__pin {
     color: var(--contrast-bg-color);
     text-shadow: 0px 0px 8px var(--dark-shadow-color);
+}
+
+.programming__languege {
+    color: rgb(46, 16, 238);
+    font-weight: 600;
 }
 

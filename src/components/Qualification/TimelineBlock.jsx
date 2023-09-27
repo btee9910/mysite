@@ -8,8 +8,8 @@ const TimelineBlock = ({ institution, title, period, description, index }) => {
     return (
         <div className='timeline__block'  style={index % 2 === 1 ? { flexDirection: 'row-reverse' } : {}}>
             <div className={'timeline__subblock ' + (index % 2 === 0 ? 'timeline__left' : 'timeline__right')} >
-                <h5 className='timeline__block__title'>{institution}</h5>
                 {title}
+                {institution}
                 {period}
             </div>
             <div className="timeline">

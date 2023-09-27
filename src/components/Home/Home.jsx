@@ -7,7 +7,8 @@ const Home = () => {
                 <div className="home__subcontainer">
                     <div className='home__intro__wrapper'>
                         <h1>Brandon Tee</h1>
-                        <h5>Full Stack Software Developer, previously Mechanical Design Engineer</h5>
+                        <h5>Full Stack Software Developer with a background as Mechanical Design Engineer</h5>
+                        <h5>Passionate about badminton, photography, indoor plant and technology</h5>
                     </div>
                     <div className='home__button__wrapper'>
                         <a href="#portfolio" className='home__button btn'>View Projects</a>
