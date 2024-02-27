@@ -5,7 +5,7 @@ import './Skills.css'
 const Skills = () => {
     const skillsCategories = [{
         category: 'Frontend Development',
-        skillsList: ['HTML', 'CSS', 'Javascript', 'React.js', 'Vue.js', 'jQuery', 'Next.js', 'Underscore.js']
+        skillsList: ['HTML', 'CSS', 'Javascript', 'vite', 'React.js', 'Vue.js', 'jQuery', 'Next.js', 'Underscore.js']
     }, {
         category: 'Backend Development',
         skillsList: ['Node.js', 'Express.js', 'JSON', 'REST APIs', 'Ruby', 'Ruby on Rails', 'Python', 'C#', 'MongoDB', 'PostgreSQL', 'Sqlite3', 'JWT']

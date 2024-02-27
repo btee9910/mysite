@@ -54,7 +54,7 @@ const Qualification = () => {
         period: <h6>Jun 2016 ▸ Dec 2018</h6>,
         description: <p>→ Eager to engage in advanced coursework, research projects, and hands-on experiences to gain practical insights into complex mechanical systems and innovations.
             <br />
-            → Completed a capstone project - Fluid mechanics in FEniCS (<span className='programming__languege'>Python</span>), solving the incompressible Navier-Stokes equation for flow through cylinder and airfoil, applying my existing knowledge in Python to solve real-world problems </p>
+            → Completed a capstone project - Fluid mechanics in FEniCS (<span className='programming__languege'>Python</span>), solving the incompressible Navier-Stokes equation for flow through cylinder and aerofoil, applying my existing knowledge in Python to solve real-world problems </p>
     }, {
         institution: <h6>University of Melbourne</h6>,
         title: <h5>Bechelor of Science (BSc) <br /> Mechanical System</h5>,
