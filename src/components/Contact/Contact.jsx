@@ -60,7 +60,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <footer className='footer'>
-                    <span className='footer__content'>© Copyright 2023. Proudly made by <a href='https://www.linkedin.com/in/btee/' target="_blank">Brandon Tee</a></span>
+                    <span className='footer__content'>© Copyright 2024. Proudly made by <a href='https://www.linkedin.com/in/btee/' target="_blank">Brandon Tee</a></span>
                 </footer>
             </div>
         </section>
