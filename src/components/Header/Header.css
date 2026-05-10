@@ -43,7 +43,8 @@
     transition: 0.4s ease-in-out;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link--active {
     color: grey;
 }
 
