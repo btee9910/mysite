@@ -128,7 +128,7 @@ const Qualification = () => {
     },
     {
       institution: "University of Melbourne",
-      title: "Bechelor of Science (BSc)",
+      title: "Bachelor of Science (BSc)",
       period: "Feb 2013 ▸ Jun 2016",
       description: (
         <p>
@@ -159,7 +159,7 @@ const Qualification = () => {
                 period={qualification.period}
                 description={qualification.description}
                 stacks={qualification.stacks}
-                index={Number(index)}
+                index={index}
                 key={index}
               />
             );
