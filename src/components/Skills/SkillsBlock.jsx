@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import './SkillsBlock.css';
 
 const SkillsBlock = ({category, skillsList}) => {
@@ -16,5 +17,10 @@ const SkillsBlock = ({category, skillsList}) => {
     </div>
   )
 }
+
+SkillsBlock.propTypes = {
+  category: PropTypes.string.isRequired,
+  skillsList: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
 
 export default SkillsBlock
