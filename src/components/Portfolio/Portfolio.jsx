@@ -39,7 +39,7 @@ const Portfolio = () => {
         {projects.map((project, index) => {
           return (
             <PortfolioBlock
-              index={Number(index)}
+              index={index}
               projectName={project.projectName}
               projectDescription={project.projectDescription}
               thumbnail={project.thumbnail}
