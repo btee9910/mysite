@@ -9,13 +9,13 @@ const About = () => {
         </h2>
         <h5>
           Transitioning from a career as a Mechanical Design Engineer to
-          becoming a Full-Stack Software Developer, I've embarked on a
+          becoming a Full-Stack Software Developer, I&rsquo;ve embarked on a
           transformative journey, bridging the gap between the physical and
           digital worlds. I have experience in programming languages such as C#,
           Python, Ruby, HTML, CSS and JavaScript with a particular focus on
           HTML, CSS, and JavaScript, where I have worked with the MERN stack
           (MongoDB, Express, React, Node.js). My dedication to continuous
-          learning drives me, and I'm genuinely excited to explore new
+          learning drives me, and I&rsquo;m genuinely excited to explore new
           technologies and languages as I continue my journey in software
           development.
         </h5>
