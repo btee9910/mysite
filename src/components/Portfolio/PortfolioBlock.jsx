@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./PortfolioBlock.css";
 
 const PortfolioBlock = ({
@@ -16,10 +17,10 @@ const PortfolioBlock = ({
       <div className="portfolio__block__subblock portfolio__block__image">
         <img
           src={thumbnail}
-          alt={"screenshot of " + projectName + "homepage"}
+          alt={"screenshot of " + projectName + " homepage"}
           className="project__image"
         />
-        {url ? (
+        {url && (
           <>
             <div className="project__hover__effect project__hover__effect__1"></div>
             <div className="project__hover__effect project__hover__effect__2"></div>
@@ -30,14 +31,7 @@ const PortfolioBlock = ({
                 className="site__access__icon"
               />
             </a>
-            <img
-              src="./open.png"
-              alt="Visit Page icon"
-              className="site__access__icon"
-            />
           </>
-        ) : (
-          <></>
         )}
       </div>
       <div className="portfolio__block__subblock portfolio__block__description">
@@ -67,6 +61,15 @@ const PortfolioBlock = ({
       </div>
     </div>
   );
+};
+
+PortfolioBlock.propTypes = {
+  index: PropTypes.number.isRequired,
+  projectName: PropTypes.string.isRequired,
+  projectDescription: PropTypes.string.isRequired,
+  thumbnail: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  repo: PropTypes.string.isRequired,
 };
 
 export default PortfolioBlock;
