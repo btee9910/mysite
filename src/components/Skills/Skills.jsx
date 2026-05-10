@@ -62,7 +62,7 @@ const Skills = () => {
         "AutoCAD",
         "Bluebeam Revu",
         "3D Computer Aided Design (CAD)",
-        "Project Menagement",
+        "Project Management",
         "Engineering Drawings",
         "Engineering Design",
       ],
