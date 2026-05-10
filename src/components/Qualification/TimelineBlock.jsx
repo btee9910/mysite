@@ -9,15 +9,6 @@ const TimelineBlock = ({
   stacks,
   index,
 }) => {
-  TimelineBlock.propTypes = {
-    institution: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    period: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    stacks: PropTypes.array.isRequired,
-    index: PropTypes.number.isRequired,
-  };
-
   return (
     <div
       className="timeline__block"
@@ -44,7 +35,7 @@ const TimelineBlock = ({
         }
       >
         <div className="">{description}</div>
-        {stacks.length != 0 ? (
+        {stacks.length > 0 && (
           <div className="mb-3">
             <p className="mb-0">Tech stack and software:</p>
             {stacks.map((stack, index) => {
@@ -56,12 +47,19 @@ const TimelineBlock = ({
               );
             })}
           </div>
-        ) : (
-          <></>
         )}
       </div>
     </div>
   );
+};
+
+TimelineBlock.propTypes = {
+  institution: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  period: PropTypes.string.isRequired,
+  description: PropTypes.node.isRequired,
+  stacks: PropTypes.array.isRequired,
+  index: PropTypes.number.isRequired,
 };
 
 export default TimelineBlock;
